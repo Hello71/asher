@@ -1,0 +1,20 @@
+gtestdbus.c: In function 'watcher_init':
+gtestdbus.c:238:38: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&started))
+                                      ^
+gtestdbus.c:238:202: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&started))
+                                                                                                                                                                                                          ^
+gtestdbus.c:268:38: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&started, 1);
+                                      ^
+gtestdbus.c: In function 'g_test_dbus_get_type':
+gtestdbus.c:359:464: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_TYPE (GTestDBus, g_test_dbus, G_TYPE_OBJECT)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ^
+gtestdbus.c:359:666: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_TYPE (GTestDBus, g_test_dbus, G_TYPE_OBJECT)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ^
+gtestdbus.c:359:1213: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_TYPE (GTestDBus, g_test_dbus, G_TYPE_OBJECT)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ^

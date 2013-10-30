@@ -1,0 +1,47 @@
+gsocketclient.c: In function 'g_socket_client_get_type':
+gsocketclient.c:77:504: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_TYPE (GSocketClient, g_socket_client, G_TYPE_OBJECT);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^
+gsocketclient.c:77:706: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_TYPE (GSocketClient, g_socket_client, G_TYPE_OBJECT);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^
+gsocketclient.c:77:1273: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_TYPE (GSocketClient, g_socket_client, G_TYPE_OBJECT);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ^
+gsocketclient.c: In function 'enumerator_next_async':
+gsocketclient.c:1349:21: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&data->current_socket);
+                     ^
+gsocketclient.c:1349:351: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&data->current_socket);
+                                                                                                                                                                                                                                                                                                                                                               ^
+gsocketclient.c:1349:582: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&data->current_socket);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ^
+gsocketclient.c:1350:21: warning: typedef '_GStaticAssertCompileTimeAssertion_6' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&data->current_addr);
+                     ^
+gsocketclient.c:1350:345: warning: typedef '_GStaticAssertCompileTimeAssertion_7' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&data->current_addr);
+                                                                                                                                                                                                                                                                                                                                                         ^
+gsocketclient.c:1350:576: warning: typedef '_GStaticAssertCompileTimeAssertion_8' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&data->current_addr);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ^
+gsocketclient.c:1351:21: warning: typedef '_GStaticAssertCompileTimeAssertion_9' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&data->proxy_addr);
+                     ^
+gsocketclient.c:1351:339: warning: typedef '_GStaticAssertCompileTimeAssertion_10' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&data->proxy_addr);
+                                                                                                                                                                                                                                                                                                                                                   ^
+gsocketclient.c:1351:571: warning: typedef '_GStaticAssertCompileTimeAssertion_11' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&data->proxy_addr);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^
+gsocketclient.c:1352:21: warning: typedef '_GStaticAssertCompileTimeAssertion_12' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&data->connection);
+                     ^
+gsocketclient.c:1352:340: warning: typedef '_GStaticAssertCompileTimeAssertion_13' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&data->connection);
+                                                                                                                                                                                                                                                                                                                                                    ^
+gsocketclient.c:1352:572: warning: typedef '_GStaticAssertCompileTimeAssertion_14' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&data->connection);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^

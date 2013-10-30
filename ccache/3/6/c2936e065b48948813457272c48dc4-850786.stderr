@@ -1,0 +1,4 @@
+pygobject.c: In function 'pygobject_data_free':
+pygobject.c:99:26: warning: 'state' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  pyglib_gil_state_release(state);
+                          ^

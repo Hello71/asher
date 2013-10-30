@@ -1,0 +1,10 @@
+gproxy.c: In function 'g_proxy_get_type':
+gproxy.c:45:181: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_INTERFACE (GProxy, g_proxy, G_TYPE_OBJECT)
+                                                                                                                                                                                     ^
+gproxy.c:45:383: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_INTERFACE (GProxy, g_proxy, G_TYPE_OBJECT)
+                                                                                                                                                                                                                                                                                                                                                                                               ^
+gproxy.c:45:1001: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_INTERFACE (GProxy, g_proxy, G_TYPE_OBJECT)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ^

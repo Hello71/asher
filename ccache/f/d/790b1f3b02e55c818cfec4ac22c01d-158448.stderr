@@ -1,0 +1,7 @@
+gmem.c: In function 'g_clear_pointer':
+gmem.c:288:41: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+     _p = g_atomic_pointer_get (pp);
+                                         ^
+gmem.c:289:102: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   while G_UNLIKELY (!g_atomic_pointer_compare_and_exchange (pp, _p, NULL));
+                                                                                                      ^

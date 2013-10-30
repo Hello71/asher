@@ -1,0 +1,10 @@
+gdrive.c: In function 'g_drive_get_type':
+gdrive.c:67:181: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_INTERFACE(GDrive, g_drive, G_TYPE_OBJECT)
+                                                                                                                                                                                     ^
+gdrive.c:67:383: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_INTERFACE(GDrive, g_drive, G_TYPE_OBJECT)
+                                                                                                                                                                                                                                                                                                                                                                                               ^
+gdrive.c:67:1001: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_INTERFACE(GDrive, g_drive, G_TYPE_OBJECT)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ^

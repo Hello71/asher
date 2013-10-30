@@ -1,0 +1,26 @@
+gregex.c: In function 'g_match_info_ref':
+gregex.c:653:34: warning: typedef '_GStaticAssertCompileTimeAssertion_33' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&match_info->ref_count);
+                                  ^
+gregex.c: In function 'g_match_info_unref':
+gregex.c:669:38: warning: typedef '_GStaticAssertCompileTimeAssertion_34' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_dec_and_test (&match_info->ref_count))
+                                      ^
+gregex.c: In function 'g_regex_ref':
+gregex.c:1248:34: warning: typedef '_GStaticAssertCompileTimeAssertion_35' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&regex->ref_count);
+                                  ^
+gregex.c: In function 'g_regex_unref':
+gregex.c:1266:38: warning: typedef '_GStaticAssertCompileTimeAssertion_36' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_dec_and_test (&regex->ref_count))
+                                      ^
+gregex.c: In function 'g_regex_new':
+gregex.c:1313:38: warning: typedef '_GStaticAssertCompileTimeAssertion_37' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&initialised))
+                                      ^
+gregex.c:1313:211: warning: typedef '_GStaticAssertCompileTimeAssertion_38' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&initialised))
+                                                                                                                                                                                                                   ^
+gregex.c:1325:38: warning: typedef '_GStaticAssertCompileTimeAssertion_39' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&initialised, supports_utf8 && supports_ucp ? 1 : 2);
+                                      ^

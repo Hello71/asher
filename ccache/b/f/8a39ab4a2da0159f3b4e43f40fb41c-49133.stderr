@@ -1,0 +1,4 @@
+conftest.c: In function 'main':
+conftest.c:196:1: warning: 'main' is normally a non-static function [-Wmain]
+ main (void)
+ ^

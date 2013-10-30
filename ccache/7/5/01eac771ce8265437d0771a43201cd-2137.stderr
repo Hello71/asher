@@ -1,0 +1,4 @@
+conftest.c: In function 'main':
+conftest.c:195:5: warning: unused variable 'error' [-Wunused-variable]
+ int error = EILSEQ;
+     ^

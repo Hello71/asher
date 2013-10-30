@@ -1,0 +1,8 @@
+ghmac.c: In function 'g_hmac_ref':
+ghmac.c:202:34: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&hmac->ref_count);
+                                  ^
+ghmac.c: In function 'g_hmac_unref':
+ghmac.c:225:38: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_dec_and_test (&hmac->ref_count))
+                                      ^

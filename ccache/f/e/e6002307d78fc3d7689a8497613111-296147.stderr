@@ -1,0 +1,11 @@
+gatomicarray.c: In function '_g_atomic_array_copy':
+gatomicarray.c:127:40: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   old = g_atomic_pointer_get (&array->data);
+                                        ^
+gatomicarray.c: In function '_g_atomic_array_update':
+gatomicarray.c:160:40: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   old = g_atomic_pointer_get (&array->data);
+                                        ^
+gatomicarray.c:164:34: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_pointer_set (&array->data, new_data);
+                                  ^

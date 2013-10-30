@@ -1,0 +1,4 @@
+conftest.c: In function 'main':
+conftest.c:168:11: warning: unused variable 'i' [-Wunused-variable]
+ uintmax_t i = (uintmax_t) -1;
+           ^

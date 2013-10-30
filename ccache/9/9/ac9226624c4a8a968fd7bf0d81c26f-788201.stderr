@@ -1,0 +1,24 @@
+pygtype.c: In function 'pyg_value_array_from_pyobject':
+pygtype.c:682:5: warning: 'g_value_array_new' is deprecated (declared at /usr/include/glib-2.0/gobject/gvaluearray.h:69): Use 'g_array_new' instead [-Wdeprecated-declarations]
+     value_array = g_value_array_new(len);
+     ^
+pygtype.c:692:6: warning: 'g_value_array_free' is deprecated (declared at /usr/include/glib-2.0/gobject/gvaluearray.h:72): Use 'g_array_unref' instead [-Wdeprecated-declarations]
+      g_value_array_free(value_array);
+      ^
+pygtype.c:704:3: warning: 'g_value_array_free' is deprecated (declared at /usr/include/glib-2.0/gobject/gvaluearray.h:72): Use 'g_array_unref' instead [-Wdeprecated-declarations]
+   g_value_array_free(value_array);
+   ^
+pygtype.c:717:6: warning: 'g_value_array_free' is deprecated (declared at /usr/include/glib-2.0/gobject/gvaluearray.h:72): Use 'g_array_unref' instead [-Wdeprecated-declarations]
+      g_value_array_free(value_array);
+      ^
+pygtype.c:722:2: warning: 'g_value_array_append' is deprecated (declared at /usr/include/glib-2.0/gobject/gvaluearray.h:82): Use 'g_array_append_vals' instead [-Wdeprecated-declarations]
+  g_value_array_append(value_array, &item_value);
+  ^
+pygtype.c: In function 'pyg_value_from_pyobject':
+pygtype.c:976:6: warning: 'g_value_array_get_type' is deprecated (declared at /usr/include/glib-2.0/gobject/gvaluearray.h:62): Use 'g_array_get_type' instead [-Wdeprecated-declarations]
+      G_VALUE_HOLDS(value, G_TYPE_VALUE_ARRAY))
+      ^
+pygtype.c: In function 'pyg_value_as_pyobject':
+pygtype.c:1152:9: warning: 'g_value_array_get_type' is deprecated (declared at /usr/include/glib-2.0/gobject/gvaluearray.h:62): Use 'g_array_get_type' instead [-Wdeprecated-declarations]
+         } else if (G_VALUE_HOLDS(value, G_TYPE_VALUE_ARRAY)) {
+         ^

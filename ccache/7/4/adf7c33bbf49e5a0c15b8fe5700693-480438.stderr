@@ -1,0 +1,95 @@
+gtlsdatabase.c: In function 'g_tls_database_get_type':
+gtlsdatabase.c:58:494: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_ABSTRACT_TYPE (GTlsDatabase, g_tls_database, G_TYPE_OBJECT);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ^
+gtlsdatabase.c:58:696: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_ABSTRACT_TYPE (GTlsDatabase, g_tls_database, G_TYPE_OBJECT);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^
+gtlsdatabase.c:58:1277: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_ABSTRACT_TYPE (GTlsDatabase, g_tls_database, G_TYPE_OBJECT);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ^
+gtlsdatabase.c: In function 'async_verify_chain_free':
+gtlsdatabase.c:99:21: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->chain);
+                     ^
+gtlsdatabase.c:99:324: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->chain);
+                                                                                                                                                                                                                                                                                                                                    ^
+gtlsdatabase.c:99:555: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->chain);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^
+gtlsdatabase.c:101:21: warning: typedef '_GStaticAssertCompileTimeAssertion_6' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->identity);
+                     ^
+gtlsdatabase.c:101:333: warning: typedef '_GStaticAssertCompileTimeAssertion_7' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->identity);
+                                                                                                                                                                                                                                                                                                                                             ^
+gtlsdatabase.c:101:564: warning: typedef '_GStaticAssertCompileTimeAssertion_8' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->identity);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^
+gtlsdatabase.c:102:21: warning: typedef '_GStaticAssertCompileTimeAssertion_9' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->interaction);
+                     ^
+gtlsdatabase.c:102:342: warning: typedef '_GStaticAssertCompileTimeAssertion_10' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->interaction);
+                                                                                                                                                                                                                                                                                                                                                      ^
+gtlsdatabase.c:102:574: warning: typedef '_GStaticAssertCompileTimeAssertion_11' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->interaction);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ^
+gtlsdatabase.c: In function 'async_lookup_certificate_for_handle_free':
+gtlsdatabase.c:187:21: warning: typedef '_GStaticAssertCompileTimeAssertion_12' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->interaction);
+                     ^
+gtlsdatabase.c:187:343: warning: typedef '_GStaticAssertCompileTimeAssertion_13' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->interaction);
+                                                                                                                                                                                                                                                                                                                                                       ^
+gtlsdatabase.c:187:575: warning: typedef '_GStaticAssertCompileTimeAssertion_14' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->interaction);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ^
+gtlsdatabase.c:188:21: warning: typedef '_GStaticAssertCompileTimeAssertion_15' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->result);
+                     ^
+gtlsdatabase.c:188:328: warning: typedef '_GStaticAssertCompileTimeAssertion_16' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->result);
+                                                                                                                                                                                                                                                                                                                                        ^
+gtlsdatabase.c:188:560: warning: typedef '_GStaticAssertCompileTimeAssertion_17' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->result);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ^
+gtlsdatabase.c: In function 'async_lookup_certificate_issuer_free':
+gtlsdatabase.c:269:21: warning: typedef '_GStaticAssertCompileTimeAssertion_18' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->certificate);
+                     ^
+gtlsdatabase.c:269:343: warning: typedef '_GStaticAssertCompileTimeAssertion_19' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->certificate);
+                                                                                                                                                                                                                                                                                                                                                       ^
+gtlsdatabase.c:269:575: warning: typedef '_GStaticAssertCompileTimeAssertion_20' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->certificate);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ^
+gtlsdatabase.c:270:21: warning: typedef '_GStaticAssertCompileTimeAssertion_21' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->interaction);
+                     ^
+gtlsdatabase.c:270:343: warning: typedef '_GStaticAssertCompileTimeAssertion_22' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->interaction);
+                                                                                                                                                                                                                                                                                                                                                       ^
+gtlsdatabase.c:270:575: warning: typedef '_GStaticAssertCompileTimeAssertion_23' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->interaction);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ^
+gtlsdatabase.c:271:21: warning: typedef '_GStaticAssertCompileTimeAssertion_24' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->issuer);
+                     ^
+gtlsdatabase.c:271:328: warning: typedef '_GStaticAssertCompileTimeAssertion_25' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->issuer);
+                                                                                                                                                                                                                                                                                                                                        ^
+gtlsdatabase.c:271:560: warning: typedef '_GStaticAssertCompileTimeAssertion_26' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->issuer);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ^
+gtlsdatabase.c: In function 'async_lookup_certificates_issued_by_free':
+gtlsdatabase.c:354:21: warning: typedef '_GStaticAssertCompileTimeAssertion_27' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->interaction);
+                     ^
+gtlsdatabase.c:354:343: warning: typedef '_GStaticAssertCompileTimeAssertion_28' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->interaction);
+                                                                                                                                                                                                                                                                                                                                                       ^
+gtlsdatabase.c:354:575: warning: typedef '_GStaticAssertCompileTimeAssertion_29' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_object (&args->interaction);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ^

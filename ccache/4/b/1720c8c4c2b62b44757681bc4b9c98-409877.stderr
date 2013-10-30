@@ -1,0 +1,20 @@
+gbinding.c: In function 'g_binding_flags_get_type':
+gbinding.c:122:38: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gbinding.c:122:240: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                ^
+gbinding.c:133:38: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gbinding.c: In function 'g_binding_get_type':
+gbinding.c:193:447: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_TYPE (GBinding, g_binding, G_TYPE_OBJECT);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                               ^
+gbinding.c:193:649: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_TYPE (GBinding, g_binding, G_TYPE_OBJECT);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ^
+gbinding.c:193:1189: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_TYPE (GBinding, g_binding, G_TYPE_OBJECT);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ^

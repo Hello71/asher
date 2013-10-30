@@ -1,0 +1,10 @@
+gvaluetypes.c: In function 'g_gtype_get_type':
+gvaluetypes.c:1173:122: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_POINTER_TYPE (GType, g_gtype)
+                                                                                                                          ^
+gvaluetypes.c:1173:324: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_POINTER_TYPE (GType, g_gtype)
+                                                                                                                                                                                                                                                                                                                                    ^
+gvaluetypes.c:1173:696: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_POINTER_TYPE (GType, g_gtype)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^

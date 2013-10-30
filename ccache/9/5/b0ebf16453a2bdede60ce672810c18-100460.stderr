@@ -1,0 +1,8 @@
+gvarianttypeinfo.c: In function 'g_variant_type_info_ref':
+gvarianttypeinfo.c:815:38: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+       g_atomic_int_inc (&container->ref_count);
+                                      ^
+gvarianttypeinfo.c: In function 'g_variant_type_info_unref':
+gvarianttypeinfo.c:838:42: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+       if (g_atomic_int_dec_and_test (&container->ref_count))
+                                          ^

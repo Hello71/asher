@@ -1,0 +1,36 @@
+gbitlock.c: In function 'g_futex_wait':
+gbitlock.c:128:98: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   if G_LIKELY (g_atomic_int_get (address) == value)
+                                                                                                  ^
+gbitlock.c: In function 'g_bit_lock':
+gbitlock.c:223:40: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+     v = g_atomic_int_get (address);
+                                        ^
+gbitlock.c:228:40: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+         g_atomic_int_add (&g_bit_lock_contended[class], +1);
+                                        ^
+gbitlock.c:230:40: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+         g_atomic_int_add (&g_bit_lock_contended[class], -1);
+                                        ^
+gbitlock.c: In function 'g_bit_unlock':
+gbitlock.c:334:40: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+     if (g_atomic_int_get (&g_bit_lock_contended[class]))
+                                        ^
+gbitlock.c: In function 'g_futex_int_address':
+gbitlock.c:370:16: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+   G_STATIC_ASSERT (G_BYTE_ORDER == G_LITTLE_ENDIAN ||
+                ^
+gbitlock.c: In function 'g_pointer_bit_lock':
+gbitlock.c:418:50: warning: typedef '_GStaticAssertCompileTimeAssertion_6' locally defined but not used [-Wunused-local-typedefs]
+       v = (gsize) g_atomic_pointer_get (pointer_address);
+                                                  ^
+gbitlock.c:423:42: warning: typedef '_GStaticAssertCompileTimeAssertion_7' locally defined but not used [-Wunused-local-typedefs]
+           g_atomic_int_add (&g_bit_lock_contended[class], +1);
+                                          ^
+gbitlock.c:425:42: warning: typedef '_GStaticAssertCompileTimeAssertion_8' locally defined but not used [-Wunused-local-typedefs]
+           g_atomic_int_add (&g_bit_lock_contended[class], -1);
+                                          ^
+gbitlock.c: In function 'g_pointer_bit_unlock':
+gbitlock.c:532:42: warning: typedef '_GStaticAssertCompileTimeAssertion_9' locally defined but not used [-Wunused-local-typedefs]
+       if (g_atomic_int_get (&g_bit_lock_contended[class]))
+                                          ^

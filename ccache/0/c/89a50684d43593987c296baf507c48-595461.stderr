@@ -1,0 +1,126 @@
+gdbusintrospection.c: In function 'g_dbus_node_info_get_type':
+gdbusintrospection.c:51:131: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusNodeInfo,       g_dbus_node_info);
+                                                                                                                                   ^
+gdbusintrospection.c:51:333: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusNodeInfo,       g_dbus_node_info);
+                                                                                                                                                                                                                                                                                                                                             ^
+gdbusintrospection.c:51:1138: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusNodeInfo,       g_dbus_node_info);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^
+gdbusintrospection.c: In function 'g_dbus_interface_info_get_type':
+gdbusintrospection.c:52:136: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusInterfaceInfo,  g_dbus_interface_info);
+                                                                                                                                        ^
+gdbusintrospection.c:52:338: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusInterfaceInfo,  g_dbus_interface_info);
+                                                                                                                                                                                                                                                                                                                                                  ^
+gdbusintrospection.c:52:1183: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusInterfaceInfo,  g_dbus_interface_info);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ^
+gdbusintrospection.c: In function 'g_dbus_method_info_get_type':
+gdbusintrospection.c:53:133: warning: typedef '_GStaticAssertCompileTimeAssertion_6' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusMethodInfo,     g_dbus_method_info);
+                                                                                                                                     ^
+gdbusintrospection.c:53:335: warning: typedef '_GStaticAssertCompileTimeAssertion_7' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusMethodInfo,     g_dbus_method_info);
+                                                                                                                                                                                                                                                                                                                                               ^
+gdbusintrospection.c:53:1156: warning: typedef '_GStaticAssertCompileTimeAssertion_8' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusMethodInfo,     g_dbus_method_info);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^
+gdbusintrospection.c: In function 'g_dbus_signal_info_get_type':
+gdbusintrospection.c:54:133: warning: typedef '_GStaticAssertCompileTimeAssertion_9' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusSignalInfo,     g_dbus_signal_info);
+                                                                                                                                     ^
+gdbusintrospection.c:54:335: warning: typedef '_GStaticAssertCompileTimeAssertion_10' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusSignalInfo,     g_dbus_signal_info);
+                                                                                                                                                                                                                                                                                                                                               ^
+gdbusintrospection.c:54:1157: warning: typedef '_GStaticAssertCompileTimeAssertion_11' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusSignalInfo,     g_dbus_signal_info);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ^
+gdbusintrospection.c: In function 'g_dbus_property_info_get_type':
+gdbusintrospection.c:55:135: warning: typedef '_GStaticAssertCompileTimeAssertion_12' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusPropertyInfo,   g_dbus_property_info);
+                                                                                                                                       ^
+gdbusintrospection.c:55:338: warning: typedef '_GStaticAssertCompileTimeAssertion_13' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusPropertyInfo,   g_dbus_property_info);
+                                                                                                                                                                                                                                                                                                                                                  ^
+gdbusintrospection.c:55:1176: warning: typedef '_GStaticAssertCompileTimeAssertion_14' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusPropertyInfo,   g_dbus_property_info);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^
+gdbusintrospection.c: In function 'g_dbus_arg_info_get_type':
+gdbusintrospection.c:56:130: warning: typedef '_GStaticAssertCompileTimeAssertion_15' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusArgInfo,        g_dbus_arg_info);
+                                                                                                                                  ^
+gdbusintrospection.c:56:333: warning: typedef '_GStaticAssertCompileTimeAssertion_16' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusArgInfo,        g_dbus_arg_info);
+                                                                                                                                                                                                                                                                                                                                             ^
+gdbusintrospection.c:56:1131: warning: typedef '_GStaticAssertCompileTimeAssertion_17' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusArgInfo,        g_dbus_arg_info);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^
+gdbusintrospection.c: In function 'g_dbus_annotation_info_get_type':
+gdbusintrospection.c:57:137: warning: typedef '_GStaticAssertCompileTimeAssertion_18' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusAnnotationInfo, g_dbus_annotation_info);
+                                                                                                                                         ^
+gdbusintrospection.c:57:340: warning: typedef '_GStaticAssertCompileTimeAssertion_19' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusAnnotationInfo, g_dbus_annotation_info);
+                                                                                                                                                                                                                                                                                                                                                    ^
+gdbusintrospection.c:57:1194: warning: typedef '_GStaticAssertCompileTimeAssertion_20' locally defined but not used [-Wunused-local-typedefs]
+ _MY_DEFINE_BOXED_TYPE (GDBusAnnotationInfo, g_dbus_annotation_info);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ^
+gdbusintrospection.c: In function 'g_dbus_node_info_ref':
+gdbusintrospection.c:110:34: warning: typedef '_GStaticAssertCompileTimeAssertion_21' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&info->ref_count);
+                                  ^
+gdbusintrospection.c: In function 'g_dbus_interface_info_ref':
+gdbusintrospection.c:130:34: warning: typedef '_GStaticAssertCompileTimeAssertion_22' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&info->ref_count);
+                                  ^
+gdbusintrospection.c: In function 'g_dbus_method_info_ref':
+gdbusintrospection.c:150:34: warning: typedef '_GStaticAssertCompileTimeAssertion_23' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&info->ref_count);
+                                  ^
+gdbusintrospection.c: In function 'g_dbus_signal_info_ref':
+gdbusintrospection.c:170:34: warning: typedef '_GStaticAssertCompileTimeAssertion_24' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&info->ref_count);
+                                  ^
+gdbusintrospection.c: In function 'g_dbus_property_info_ref':
+gdbusintrospection.c:190:34: warning: typedef '_GStaticAssertCompileTimeAssertion_25' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&info->ref_count);
+                                  ^
+gdbusintrospection.c: In function 'g_dbus_arg_info_ref':
+gdbusintrospection.c:210:34: warning: typedef '_GStaticAssertCompileTimeAssertion_26' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&info->ref_count);
+                                  ^
+gdbusintrospection.c: In function 'g_dbus_annotation_info_ref':
+gdbusintrospection.c:230:34: warning: typedef '_GStaticAssertCompileTimeAssertion_27' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&info->ref_count);
+                                  ^
+gdbusintrospection.c: In function 'g_dbus_annotation_info_unref':
+gdbusintrospection.c:263:38: warning: typedef '_GStaticAssertCompileTimeAssertion_28' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_dec_and_test (&info->ref_count))
+                                      ^
+gdbusintrospection.c: In function 'g_dbus_arg_info_unref':
+gdbusintrospection.c:287:38: warning: typedef '_GStaticAssertCompileTimeAssertion_29' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_dec_and_test (&info->ref_count))
+                                      ^
+gdbusintrospection.c: In function 'g_dbus_method_info_unref':
+gdbusintrospection.c:311:38: warning: typedef '_GStaticAssertCompileTimeAssertion_30' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_dec_and_test (&info->ref_count))
+                                      ^
+gdbusintrospection.c: In function 'g_dbus_signal_info_unref':
+gdbusintrospection.c:336:38: warning: typedef '_GStaticAssertCompileTimeAssertion_31' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_dec_and_test (&info->ref_count))
+                                      ^
+gdbusintrospection.c: In function 'g_dbus_property_info_unref':
+gdbusintrospection.c:360:38: warning: typedef '_GStaticAssertCompileTimeAssertion_32' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_dec_and_test (&info->ref_count))
+                                      ^
+gdbusintrospection.c: In function 'g_dbus_interface_info_unref':
+gdbusintrospection.c:384:38: warning: typedef '_GStaticAssertCompileTimeAssertion_33' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_dec_and_test (&info->ref_count))
+                                      ^
+gdbusintrospection.c: In function 'g_dbus_node_info_unref':
+gdbusintrospection.c:410:38: warning: typedef '_GStaticAssertCompileTimeAssertion_34' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_dec_and_test (&info->ref_count))
+                                      ^

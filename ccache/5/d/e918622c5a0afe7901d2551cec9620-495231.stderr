@@ -1,0 +1,10 @@
+gicon.c: In function 'g_icon_get_type':
+gicon.c:66:178: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_INTERFACE(GIcon, g_icon, G_TYPE_OBJECT)
+                                                                                                                                                                                  ^
+gicon.c:66:380: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_INTERFACE(GIcon, g_icon, G_TYPE_OBJECT)
+                                                                                                                                                                                                                                                                                                                                                                                            ^
+gicon.c:66:995: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_INTERFACE(GIcon, g_icon, G_TYPE_OBJECT)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ^

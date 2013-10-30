@@ -1,0 +1,4 @@
+pygi-marshal-from-py.c: In function '_pygi_marshal_from_py_array':
+pygi-marshal-from-py.c:1042:78: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         _PyGI_ERROR_PREFIX ("Item %i: ", i);
+                                                                              ^

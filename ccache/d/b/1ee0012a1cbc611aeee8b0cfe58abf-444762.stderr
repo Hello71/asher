@@ -1,0 +1,44 @@
+gresource.c: In function 'g_resource_get_type':
+gresource.c:43:125: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_BOXED_TYPE (GResource, g_resource, g_resource_ref, g_resource_unref)
+                                                                                                                             ^
+gresource.c:43:327: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_BOXED_TYPE (GResource, g_resource, g_resource_ref, g_resource_unref)
+                                                                                                                                                                                                                                                                                                                                       ^
+gresource.c:43:1096: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_BOXED_TYPE (GResource, g_resource, g_resource_ref, g_resource_unref)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^
+gresource.c: In function 'g_resource_ref':
+gresource.c:157:34: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&resource->ref_count);
+                                  ^
+gresource.c: In function 'g_resource_unref':
+gresource.c:175:38: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_dec_and_test (&resource->ref_count))
+                                      ^
+gresource.c: In function 'register_lazy_static_resources_unlocked':
+gresource.c:922:42: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+   while (!g_atomic_pointer_compare_and_exchange (&lazy_register_resources, list, NULL));
+                                          ^
+gresource.c:931:42: warning: typedef '_GStaticAssertCompileTimeAssertion_6' locally defined but not used [-Wunused-local-typedefs]
+           g_atomic_pointer_set (&list->resource, resource);
+                                          ^
+gresource.c: In function 'register_lazy_static_resources':
+gresource.c:942:38: warning: typedef '_GStaticAssertCompileTimeAssertion_7' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_pointer_get (&lazy_register_resources) == NULL)
+                                      ^
+gresource.c: In function 'g_static_resource_init':
+gresource.c:973:42: warning: typedef '_GStaticAssertCompileTimeAssertion_8' locally defined but not used [-Wunused-local-typedefs]
+   while (!g_atomic_pointer_compare_and_exchange (&lazy_register_resources, next, static_resource));
+                                          ^
+gresource.c: In function 'g_static_resource_fini':
+gresource.c:997:45: warning: typedef '_GStaticAssertCompileTimeAssertion_9' locally defined but not used [-Wunused-local-typedefs]
+   resource = g_atomic_pointer_get (&static_resource->resource);
+                                             ^
+gresource.c:1000:38: warning: typedef '_GStaticAssertCompileTimeAssertion_10' locally defined but not used [-Wunused-local-typedefs]
+       g_atomic_pointer_set (&static_resource->resource, NULL);
+                                      ^
+gresource.c: In function 'g_static_resource_get_resource':
+gresource.c:1027:41: warning: typedef '_GStaticAssertCompileTimeAssertion_11' locally defined but not used [-Wunused-local-typedefs]
+   return g_atomic_pointer_get (&static_resource->resource);
+                                         ^

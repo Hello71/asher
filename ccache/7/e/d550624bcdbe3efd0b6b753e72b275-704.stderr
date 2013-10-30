@@ -1,0 +1,4 @@
+conftest.c: In function 'main':
+conftest.c:162:13: warning: unused variable 'x' [-Wunused-variable]
+ signed char x;
+             ^

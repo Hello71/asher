@@ -1,0 +1,75 @@
+gobject.c: In function 'g_object_notify_queue_thaw':
+gobject.c:263:102: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   g_return_if_fail (g_atomic_int_get(&object->ref_count) > 0);
+                                                                                                      ^
+gobject.c: In function 'g_object_freeze_notify':
+gobject.c:1086:38: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_get (&object->ref_count) == 0)
+                                      ^
+gobject.c: In function 'g_object_notify':
+gobject.c:1159:38: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_get (&object->ref_count) == 0)
+                                      ^
+gobject.c: In function 'g_object_thaw_notify':
+gobject.c:1260:38: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_get (&object->ref_count) == 0)
+                                      ^
+gobject.c: In function 'object_floating_flag_handler':
+gobject.c:2622:51: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+         oldvalue = g_atomic_pointer_get (&object->qdata);
+                                                   ^
+gobject.c:2623:46: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+       while (!g_atomic_pointer_compare_and_exchange ((void**) &object->qdata, oldvalue,
+                                              ^
+gobject.c:2628:51: warning: typedef '_GStaticAssertCompileTimeAssertion_6' locally defined but not used [-Wunused-local-typedefs]
+         oldvalue = g_atomic_pointer_get (&object->qdata);
+                                                   ^
+gobject.c:2629:46: warning: typedef '_GStaticAssertCompileTimeAssertion_7' locally defined but not used [-Wunused-local-typedefs]
+       while (!g_atomic_pointer_compare_and_exchange ((void**) &object->qdata, oldvalue,
+                                              ^
+gobject.c:2633:59: warning: typedef '_GStaticAssertCompileTimeAssertion_8' locally defined but not used [-Wunused-local-typedefs]
+       return 0 != ((gsize) g_atomic_pointer_get (&object->qdata) & OBJECT_FLOATING_FLAG);
+                                                           ^
+gobject.c: In function 'g_object_ref':
+gobject.c:2893:44: warning: typedef '_GStaticAssertCompileTimeAssertion_9' locally defined but not used [-Wunused-local-typedefs]
+   old_val = g_atomic_int_add (&object->ref_count, 1);
+                                            ^
+gobject.c: In function 'g_object_unref':
+gobject.c:2926:44: warning: typedef '_GStaticAssertCompileTimeAssertion_10' locally defined but not used [-Wunused-local-typedefs]
+   old_ref = g_atomic_int_get (&object->ref_count);
+                                            ^
+gobject.c:2932:43: warning: typedef '_GStaticAssertCompileTimeAssertion_11' locally defined but not used [-Wunused-local-typedefs]
+       if (!g_atomic_int_compare_and_exchange ((int *)&object->ref_count, old_ref, old_ref - 1))
+                                           ^
+gobject.c:2964:52: warning: typedef '_GStaticAssertCompileTimeAssertion_12' locally defined but not used [-Wunused-local-typedefs]
+           old_ref = g_atomic_int_get (&object->ref_count);
+                                                    ^
+gobject.c:2992:48: warning: typedef '_GStaticAssertCompileTimeAssertion_13' locally defined but not used [-Wunused-local-typedefs]
+       old_ref = g_atomic_int_get ((int *)&object->ref_count);
+                                                ^
+gobject.c:2998:47: warning: typedef '_GStaticAssertCompileTimeAssertion_14' locally defined but not used [-Wunused-local-typedefs]
+           if (!g_atomic_int_compare_and_exchange ((int *)&object->ref_count, old_ref, old_ref - 1))
+                                               ^
+gobject.c:3016:48: warning: typedef '_GStaticAssertCompileTimeAssertion_15' locally defined but not used [-Wunused-local-typedefs]
+       old_ref = g_atomic_int_add (&object->ref_count, -1);
+                                                ^
+gobject.c: In function 'g_clear_object':
+gobject.c:3066:21: warning: typedef '_GStaticAssertCompileTimeAssertion_16' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_pointer (object_ptr, g_object_unref);
+                     ^
+gobject.c:3066:313: warning: typedef '_GStaticAssertCompileTimeAssertion_17' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_pointer (object_ptr, g_object_unref);
+                                                                                                                                                                                                                                                                                                                         ^
+gobject.c:3066:545: warning: typedef '_GStaticAssertCompileTimeAssertion_18' locally defined but not used [-Wunused-local-typedefs]
+   g_clear_pointer (object_ptr, g_object_unref);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ^
+gobject.c: In function 'g_initially_unowned_get_type':
+gobject.c:3963:544: warning: typedef '_GStaticAssertCompileTimeAssertion_19' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_TYPE (GInitiallyUnowned, g_initially_unowned, G_TYPE_OBJECT);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ^
+gobject.c:3963:747: warning: typedef '_GStaticAssertCompileTimeAssertion_20' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_TYPE (GInitiallyUnowned, g_initially_unowned, G_TYPE_OBJECT);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^
+gobject.c:3963:1335: warning: typedef '_GStaticAssertCompileTimeAssertion_21' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_TYPE (GInitiallyUnowned, g_initially_unowned, G_TYPE_OBJECT);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ^

@@ -1,0 +1,4 @@
+pygi-foreign-cairo.c: In function 'init_gi_cairo':
+pygi-foreign-cairo.c:189:38: warning: variable 'module' set but not used [-Wunused-but-set-variable]
+ PYGLIB_MODULE_START(_gi_cairo, "_gi_cairo")
+                                      ^

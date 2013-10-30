@@ -1,0 +1,20 @@
+gvfs.c: In function 'g_vfs_get_type':
+gvfs.c:42:407: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_TYPE (GVfs, g_vfs, G_TYPE_OBJECT);
+                                                                                                                                                                                                                                                                                                                                                                                                                       ^
+gvfs.c:42:609: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_TYPE (GVfs, g_vfs, G_TYPE_OBJECT);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ^
+gvfs.c:42:1129: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_TYPE (GVfs, g_vfs, G_TYPE_OBJECT);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ^
+gvfs.c: In function 'g_vfs_get_local':
+gvfs.c:216:38: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&vfs))
+                                      ^
+gvfs.c:216:194: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&vfs))
+                                                                                                                                                                                                  ^
+gvfs.c:217:36: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+     g_once_init_leave (&vfs, (gsize)_g_local_vfs_new ());
+                                    ^

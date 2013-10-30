@@ -1,0 +1,126 @@
+gtype.c: In function 'lookup_iface_entry_I':
+gtype.c:564:150: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   G_ATOMIC_ARRAY_DO_TRANSACTION
+                                                                                                                                                      ^
+gtype.c:564:825: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   G_ATOMIC_ARRAY_DO_TRANSACTION
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ^
+gtype.c: In function 'type_lookup_iface_vtable_I':
+gtype.c:619:160: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+   G_ATOMIC_ARRAY_DO_TRANSACTION
+                                                                                                                                                                ^
+gtype.c:619:556: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+   G_ATOMIC_ARRAY_DO_TRANSACTION
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+gtype.c: In function 'type_data_make_W':
+gtype.c:1196:34: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_set ((int *) &node->ref_count, 1);
+                                  ^
+gtype.c: In function 'type_data_ref_Wm':
+gtype.c:1234:116: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+       g_assert (NODE_REFCOUNT (node) > 0);
+                                                                                                                    ^
+gtype.c:1236:38: warning: typedef '_GStaticAssertCompileTimeAssertion_6' locally defined but not used [-Wunused-local-typedefs]
+       g_atomic_int_inc ((int *) &node->ref_count);
+                                      ^
+gtype.c: In function 'type_data_ref_U':
+gtype.c:1246:55: warning: typedef '_GStaticAssertCompileTimeAssertion_7' locally defined but not used [-Wunused-local-typedefs]
+     current = NODE_REFCOUNT (node);
+                                                       ^
+gtype.c:1250:44: warning: typedef '_GStaticAssertCompileTimeAssertion_8' locally defined but not used [-Wunused-local-typedefs]
+   } while (!g_atomic_int_compare_and_exchange ((int *) &node->ref_count, current, current + 1));
+                                            ^
+gtype.c: In function 'type_class_init_Wm':
+gtype.c:2118:34: warning: typedef '_GStaticAssertCompileTimeAssertion_9' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_set (&node->data->class.init_state, BASE_CLASS_INIT);
+                                  ^
+gtype.c:2156:34: warning: typedef '_GStaticAssertCompileTimeAssertion_10' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_set (&node->data->class.init_state, BASE_IFACE_INIT);
+                                  ^
+gtype.c:2212:34: warning: typedef '_GStaticAssertCompileTimeAssertion_11' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_set (&node->data->class.init_state, CLASS_INIT);
+                                  ^
+gtype.c:2221:34: warning: typedef '_GStaticAssertCompileTimeAssertion_12' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_set (&node->data->class.init_state, IFACE_INIT);
+                                  ^
+gtype.c:2252:34: warning: typedef '_GStaticAssertCompileTimeAssertion_13' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_set (&node->data->class.init_state, INITIALIZED);
+                                  ^
+gtype.c: In function 'type_data_finalize_class_ifaces_Wm':
+gtype.c:2261:180: warning: typedef '_GStaticAssertCompileTimeAssertion_14' locally defined but not used [-Wunused-local-typedefs]
+   g_assert (node->is_instantiatable && node->data && node->data->class.class && NODE_REFCOUNT (node) == 0);
+                                                                                                                                                                                    ^
+gtype.c: In function 'type_data_finalize_class_U':
+gtype.c:2294:128: warning: typedef '_GStaticAssertCompileTimeAssertion_15' locally defined but not used [-Wunused-local-typedefs]
+   g_assert (cdata->class && NODE_REFCOUNT (node) == 0);
+                                                                                                                                ^
+gtype.c: In function 'type_data_last_unref_Wm':
+gtype.c:2316:62: warning: typedef '_GStaticAssertCompileTimeAssertion_16' locally defined but not used [-Wunused-local-typedefs]
+   if (!node->data || NODE_REFCOUNT (node) == 0)
+                                                              ^
+gtype.c:2339:63: warning: typedef '_GStaticAssertCompileTimeAssertion_17' locally defined but not used [-Wunused-local-typedefs]
+    if (!node->data || NODE_REFCOUNT (node) == 0)
+                                                               ^
+gtype.c:2349:38: warning: typedef '_GStaticAssertCompileTimeAssertion_18' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_dec_and_test ((int *) &node->ref_count))
+                                      ^
+gtype.c: In function 'type_data_unref_U':
+gtype.c:2411:55: warning: typedef '_GStaticAssertCompileTimeAssertion_19' locally defined but not used [-Wunused-local-typedefs]
+     current = NODE_REFCOUNT (node);
+                                                       ^
+gtype.c:2431:44: warning: typedef '_GStaticAssertCompileTimeAssertion_20' locally defined but not used [-Wunused-local-typedefs]
+   } while (!g_atomic_int_compare_and_exchange ((int *) &node->ref_count, current, current - 1));
+                                            ^
+gtype.c: In function 'g_type_class_ref':
+gtype.c:2900:103: warning: typedef '_GStaticAssertCompileTimeAssertion_21' locally defined but not used [-Wunused-local-typedefs]
+       if (G_LIKELY (g_atomic_int_get (&node->data->class.init_state) == INITIALIZED))
+                                                                                                       ^
+gtype.c: In function 'g_type_class_unref':
+gtype.c:2955:75: warning: typedef '_GStaticAssertCompileTimeAssertion_22' locally defined but not used [-Wunused-local-typedefs]
+   if (node && node->is_classed && NODE_REFCOUNT (node))
+                                                                           ^
+gtype.c: In function 'g_type_class_unref_uncached':
+gtype.c:2981:75: warning: typedef '_GStaticAssertCompileTimeAssertion_23' locally defined but not used [-Wunused-local-typedefs]
+   if (node && node->is_classed && NODE_REFCOUNT (node))
+                                                                           ^
+gtype.c: In function 'g_type_class_peek':
+gtype.c:3008:75: warning: typedef '_GStaticAssertCompileTimeAssertion_24' locally defined but not used [-Wunused-local-typedefs]
+   if (node && node->is_classed && NODE_REFCOUNT (node) &&
+                                                                           ^
+gtype.c:3009:38: warning: typedef '_GStaticAssertCompileTimeAssertion_25' locally defined but not used [-Wunused-local-typedefs]
+       g_atomic_int_get (&node->data->class.init_state) == INITIALIZED)
+                                      ^
+gtype.c: In function 'g_type_class_peek_static':
+gtype.c:3037:75: warning: typedef '_GStaticAssertCompileTimeAssertion_26' locally defined but not used [-Wunused-local-typedefs]
+   if (node && node->is_classed && NODE_REFCOUNT (node) &&
+                                                                           ^
+gtype.c:3039:38: warning: typedef '_GStaticAssertCompileTimeAssertion_27' locally defined but not used [-Wunused-local-typedefs]
+       g_atomic_int_get (&node->data->class.init_state) == INITIALIZED)
+                                      ^
+gtype.c: In function 'g_type_default_interface_ref':
+gtype.c:3192:62: warning: typedef '_GStaticAssertCompileTimeAssertion_28' locally defined but not used [-Wunused-local-typedefs]
+       (node->data && NODE_REFCOUNT (node) == 0))
+                                                              ^
+gtype.c: In function 'g_type_default_interface_peek':
+gtype.c:3239:117: warning: typedef '_GStaticAssertCompileTimeAssertion_29' locally defined but not used [-Wunused-local-typedefs]
+   if (node && NODE_IS_IFACE (node) && NODE_REFCOUNT (node))
+                                                                                                                     ^
+gtype.c: In function 'type_check_is_value_type_U':
+gtype.c:4103:65: warning: typedef '_GStaticAssertCompileTimeAssertion_30' locally defined but not used [-Wunused-local-typedefs]
+       if (node->data && NODE_REFCOUNT (node) > 0 &&
+                                                                 ^
+gtype.c: In function 'g_type_value_table_peek':
+gtype.c:4167:55: warning: typedef '_GStaticAssertCompileTimeAssertion_31' locally defined but not used [-Wunused-local-typedefs]
+   if (node && NODE_REFCOUNT (node) && node->mutatable_check_cache)
+                                                       ^
+gtype.c:4173:82: warning: typedef '_GStaticAssertCompileTimeAssertion_32' locally defined but not used [-Wunused-local-typedefs]
+   has_refed_data = node && node->data && NODE_REFCOUNT (node) > 0;
+                                                                                  ^
+gtype.c: In function 'g_type_instance_get_private':
+gtype.c:4548:137: warning: typedef '_GStaticAssertCompileTimeAssertion_33' locally defined but not used [-Wunused-local-typedefs]
+       g_assert (parent_node->data && NODE_REFCOUNT (parent_node) > 0);
+                                                                                                                                         ^
+gtype.c: In function 'g_type_class_get_private':
+gtype.c:4644:137: warning: typedef '_GStaticAssertCompileTimeAssertion_34' locally defined but not used [-Wunused-local-typedefs]
+       g_assert (parent_node->data && NODE_REFCOUNT (parent_node) > 0);
+                                                                                                                                         ^

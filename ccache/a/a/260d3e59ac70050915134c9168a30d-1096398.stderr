@@ -1,0 +1,20 @@
+gfile.c: In function 'g_file_get_type':
+gfile.c:289:178: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_INTERFACE (GFile, g_file, G_TYPE_OBJECT)
+                                                                                                                                                                                  ^
+gfile.c:289:380: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_INTERFACE (GFile, g_file, G_TYPE_OBJECT)
+                                                                                                                                                                                                                                                                                                                                                                                            ^
+gfile.c:289:995: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_INTERFACE (GFile, g_file, G_TYPE_OBJECT)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ^
+gfile.c: In function 'open_source_for_copy':
+gfile.c:2537:29: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+           g_clear_object (&info);
+                             ^
+gfile.c:2537:311: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+           g_clear_object (&info);
+                                                                                                                                                                                                                                                                                                                       ^
+gfile.c:2537:542: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+           g_clear_object (&info);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ^

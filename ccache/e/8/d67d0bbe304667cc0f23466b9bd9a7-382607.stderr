@@ -1,0 +1,8 @@
+gmappedfile.c: In function 'g_mapped_file_ref':
+gmappedfile.c:379:34: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&file->ref_count);
+                                  ^
+gmappedfile.c: In function 'g_mapped_file_unref':
+gmappedfile.c:400:38: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_dec_and_test (&file->ref_count))
+                                      ^

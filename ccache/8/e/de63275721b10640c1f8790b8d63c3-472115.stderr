@@ -1,0 +1,8 @@
+gdbusnameowning.c: In function 'client_ref':
+gdbusnameowning.c:89:34: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&client->ref_count);
+                                  ^
+gdbusnameowning.c: In function 'client_unref':
+gdbusnameowning.c:96:38: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_dec_and_test (&client->ref_count))
+                                      ^

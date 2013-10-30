@@ -1,0 +1,95 @@
+gdataset.c: In function 'g_datalist_lock':
+gdataset.c:213:34: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   g_pointer_bit_lock ((void **)datalist, DATALIST_LOCK_BIT);
+                                  ^
+gdataset.c: In function 'g_datalist_unlock':
+gdataset.c:219:34: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   g_pointer_bit_unlock ((void **)datalist, DATALIST_LOCK_BIT);
+                                  ^
+gdataset.c: In function 'g_datalist_clear_i':
+gdataset.c:231:60: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+   data = G_DATALIST_GET_POINTER (datalist);
+                                                            ^
+gdataset.c:232:75: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+   G_DATALIST_SET_POINTER (datalist, NULL);
+                                                                           ^
+gdataset.c:232:324: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+   G_DATALIST_SET_POINTER (datalist, NULL);
+                                                                                                                                                                                                                                                                                                                                    ^
+gdataset.c: In function 'g_datalist_clear':
+gdataset.c:267:60: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+   data = G_DATALIST_GET_POINTER (datalist);
+                                                            ^
+gdataset.c:268:75: warning: typedef '_GStaticAssertCompileTimeAssertion_6' locally defined but not used [-Wunused-local-typedefs]
+   G_DATALIST_SET_POINTER (datalist, NULL);
+                                                                           ^
+gdataset.c:268:324: warning: typedef '_GStaticAssertCompileTimeAssertion_7' locally defined but not used [-Wunused-local-typedefs]
+   G_DATALIST_SET_POINTER (datalist, NULL);
+                                                                                                                                                                                                                                                                                                                                    ^
+gdataset.c: In function 'g_dataset_destroy_internal':
+gdataset.c:309:61: warning: typedef '_GStaticAssertCompileTimeAssertion_8' locally defined but not used [-Wunused-local-typedefs]
+       if (G_DATALIST_GET_POINTER(&dataset->datalist) == NULL)
+                                                             ^
+gdataset.c: In function 'g_data_set_internal':
+gdataset.c:360:57: warning: typedef '_GStaticAssertCompileTimeAssertion_9' locally defined but not used [-Wunused-local-typedefs]
+   d = G_DATALIST_GET_POINTER (datalist);
+                                                         ^
+gdataset.c:382:81: warning: typedef '_GStaticAssertCompileTimeAssertion_10' locally defined but not used [-Wunused-local-typedefs]
+         G_DATALIST_SET_POINTER (datalist, NULL);
+                                                                                 ^
+gdataset.c:382:331: warning: typedef '_GStaticAssertCompileTimeAssertion_11' locally defined but not used [-Wunused-local-typedefs]
+         G_DATALIST_SET_POINTER (datalist, NULL);
+                                                                                                                                                                                                                                                                                                                                           ^
+gdataset.c:478:74: warning: typedef '_GStaticAssertCompileTimeAssertion_12' locally defined but not used [-Wunused-local-typedefs]
+  G_DATALIST_SET_POINTER (datalist, d);
+                                                                          ^
+gdataset.c:478:314: warning: typedef '_GStaticAssertCompileTimeAssertion_13' locally defined but not used [-Wunused-local-typedefs]
+  G_DATALIST_SET_POINTER (datalist, d);
+                                                                                                                                                                                                                                                                                                                          ^
+gdataset.c: In function 'g_datalist_id_dup_data':
+gdataset.c:857:57: warning: typedef '_GStaticAssertCompileTimeAssertion_14' locally defined but not used [-Wunused-local-typedefs]
+   d = G_DATALIST_GET_POINTER (datalist);
+                                                         ^
+gdataset.c: In function 'g_datalist_id_replace_data':
+gdataset.c:931:57: warning: typedef '_GStaticAssertCompileTimeAssertion_15' locally defined but not used [-Wunused-local-typedefs]
+   d = G_DATALIST_GET_POINTER (datalist);
+                                                         ^
+gdataset.c:961:98: warning: typedef '_GStaticAssertCompileTimeAssertion_16' locally defined but not used [-Wunused-local-typedefs]
+                          G_DATALIST_SET_POINTER (datalist, NULL);
+                                                                                                  ^
+gdataset.c:961:348: warning: typedef '_GStaticAssertCompileTimeAssertion_17' locally defined but not used [-Wunused-local-typedefs]
+                          G_DATALIST_SET_POINTER (datalist, NULL);
+                                                                                                                                                                                                                                                                                                                                                            ^
+gdataset.c:990:81: warning: typedef '_GStaticAssertCompileTimeAssertion_18' locally defined but not used [-Wunused-local-typedefs]
+         G_DATALIST_SET_POINTER (datalist, d);
+                                                                                 ^
+gdataset.c:990:321: warning: typedef '_GStaticAssertCompileTimeAssertion_19' locally defined but not used [-Wunused-local-typedefs]
+         G_DATALIST_SET_POINTER (datalist, d);
+                                                                                                                                                                                                                                                                                                                                 ^
+gdataset.c: In function 'g_datalist_get_data':
+gdataset.c:1024:57: warning: typedef '_GStaticAssertCompileTimeAssertion_20' locally defined but not used [-Wunused-local-typedefs]
+   d = G_DATALIST_GET_POINTER (datalist);
+                                                         ^
+gdataset.c: In function 'g_datalist_foreach':
+gdataset.c:1116:57: warning: typedef '_GStaticAssertCompileTimeAssertion_21' locally defined but not used [-Wunused-local-typedefs]
+   d = G_DATALIST_GET_POINTER (datalist);
+                                                         ^
+gdataset.c:1131:61: warning: typedef '_GStaticAssertCompileTimeAssertion_22' locally defined but not used [-Wunused-local-typedefs]
+       d = G_DATALIST_GET_POINTER (datalist);
+                                                             ^
+gdataset.c: In function 'g_datalist_init':
+gdataset.c:1158:34: warning: typedef '_GStaticAssertCompileTimeAssertion_23' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_pointer_set (datalist, NULL);
+                                  ^
+gdataset.c: In function 'g_datalist_set_flags':
+gdataset.c:1186:34: warning: typedef '_GStaticAssertCompileTimeAssertion_24' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_pointer_or (datalist, (gsize)flags);
+                                  ^
+gdataset.c: In function 'g_datalist_unset_flags':
+gdataset.c:1209:34: warning: typedef '_GStaticAssertCompileTimeAssertion_25' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_pointer_and (datalist, ~(gsize)flags);
+                                  ^
+gdataset.c: In function 'g_datalist_get_flags':
+gdataset.c:1228:50: warning: typedef '_GStaticAssertCompileTimeAssertion_26' locally defined but not used [-Wunused-local-typedefs]
+   return G_DATALIST_GET_FLAGS (datalist); /* atomic macro */
+                                                  ^

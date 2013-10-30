@@ -1,0 +1,8 @@
+gobjectmodule.c: In function 'pygobject_init_wrapper_set':
+gobjectmodule.c:1011:5: warning: 'g_static_private_set' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:248): Use 'g_private_set' instead [-Wdeprecated-declarations]
+     g_static_private_set(&pygobject_construction_wrapper, wrapper, NULL);
+     ^
+gobjectmodule.c: In function 'pygobject_init_wrapper_get':
+gobjectmodule.c:1017:5: warning: 'g_static_private_get' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:245): Use 'g_private_get' instead [-Wdeprecated-declarations]
+     return (PyObject *) g_static_private_get(&pygobject_construction_wrapper);
+     ^

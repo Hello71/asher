@@ -1,0 +1,20 @@
+gthread-posix.c: In function 'g_mutex_get_impl':
+gthread-posix.c:126:43: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+       if (!g_atomic_pointer_compare_and_exchange (&mutex->p, NULL, impl))
+                                           ^
+gthread-posix.c: In function 'g_rec_mutex_get_impl':
+gthread-posix.c:295:43: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+       if (!g_atomic_pointer_compare_and_exchange (&rec_mutex->p, NULL, impl))
+                                           ^
+gthread-posix.c: In function 'g_rw_lock_get_impl':
+gthread-posix.c:455:43: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+       if (!g_atomic_pointer_compare_and_exchange (&lock->p, NULL, impl))
+                                           ^
+gthread-posix.c: In function 'g_cond_get_impl':
+gthread-posix.c:672:43: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+       if (!g_atomic_pointer_compare_and_exchange (&cond->p, NULL, impl))
+                                           ^
+gthread-posix.c: In function 'g_private_get_impl':
+gthread-posix.c:979:43: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+       if (!g_atomic_pointer_compare_and_exchange (&key->p, NULL, impl))
+                                           ^

@@ -1,0 +1,20 @@
+gutils.c: In function 'g_get_user_runtime_dir':
+gutils.c:1397:38: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&initialised))
+                                      ^
+gutils.c:1397:210: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&initialised))
+                                                                                                                                                                                                                  ^
+gutils.c:1401:38: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&initialised, 1);
+                                      ^
+gutils.c: In function 'g_check_setuid':
+gutils.c:2441:38: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&check_setuid_initialised))
+                                      ^
+gutils.c:2441:236: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&check_setuid_initialised))
+                                                                                                                                                                                                                                            ^
+gutils.c:2462:38: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&check_setuid_initialised, 1);
+                                      ^

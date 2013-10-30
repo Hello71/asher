@@ -1,0 +1,23 @@
+gbacktrace.c: In function 'g_on_error_query':
+gbacktrace.c:176:11: warning: ignoring return value of 'fgets', declared with attribute warn_unused_result [-Wunused-result]
+     fgets (buf, 8, stdin);
+           ^
+gbacktrace.c: In function 'stack_trace':
+gbacktrace.c:300:22: warning: ignoring return value of 'dup', declared with attribute warn_unused_result [-Wunused-result]
+       close (0); dup (in_fd[0]);   /* set the stdin to the in pipe */
+                      ^
+gbacktrace.c:301:22: warning: ignoring return value of 'dup', declared with attribute warn_unused_result [-Wunused-result]
+       close (1); dup (out_fd[1]);  /* set the stdout to the out pipe */
+                      ^
+gbacktrace.c:302:22: warning: ignoring return value of 'dup', declared with attribute warn_unused_result [-Wunused-result]
+       close (2); dup (out_fd[1]);  /* set the stderr to the out pipe */
+                      ^
+gbacktrace.c:317:9: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+   write (in_fd[1], "backtrace\n", 10);
+         ^
+gbacktrace.c:318:9: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+   write (in_fd[1], "p x = 0\n", 8);
+         ^
+gbacktrace.c:319:9: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+   write (in_fd[1], "quit\n", 5);
+         ^

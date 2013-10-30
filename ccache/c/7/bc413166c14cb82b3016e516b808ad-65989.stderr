@@ -1,0 +1,20 @@
+ggettext.c: In function 'ensure_gettext_initialized':
+ggettext.c:100:38: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&initialised))
+                                      ^
+ggettext.c:100:210: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&initialised))
+                                                                                                                                                                                                                  ^
+ggettext.c:112:38: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&initialised, TRUE);
+                                      ^
+ggettext.c: In function '_g_dgettext_should_translate':
+ggettext.c:311:99: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+   if (G_UNLIKELY (g_once_init_enter (&translate)))
+                                                                                                   ^
+ggettext.c:311:267: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+   if (G_UNLIKELY (g_once_init_enter (&translate)))
+                                                                                                                                                                                                                                                                           ^
+ggettext.c:342:38: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&translate,
+                                      ^

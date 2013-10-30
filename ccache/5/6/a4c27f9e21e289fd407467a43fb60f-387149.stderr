@@ -1,0 +1,4 @@
+girepository/cmph/cmph.c: In function 'count_nlfile_keys':
+girepository/cmph/cmph.c:158:8: warning: ignoring return value of 'fgets', declared with attribute warn_unused_result [-Wunused-result]
+   fgets(buf, BUFSIZ, fd); 
+        ^

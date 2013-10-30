@@ -1,0 +1,6 @@
+scannerlexer.c: In function 'yy_scan_bytes':
+scannerlexer.c:2495:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for ( i = 0; i < _yybytes_len; ++i )
+                 ^
+scannerlexer.c: In function 'yylex':
+scannerlexer.l:207:7: warning: ignoring return value of 'fwrite', declared with attribute warn_unused_result [-Wunused-result]

@@ -1,0 +1,12 @@
+gbytes.c: In function 'g_bytes_ref':
+gbytes.c:274:34: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&bytes->ref_count);
+                                  ^
+gbytes.c: In function 'g_bytes_unref':
+gbytes.c:294:38: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_dec_and_test (&bytes->ref_count))
+                                      ^
+gbytes.c: In function 'try_steal_and_unref':
+gbytes.c:401:38: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_get (&bytes->ref_count) == 1)
+                                      ^

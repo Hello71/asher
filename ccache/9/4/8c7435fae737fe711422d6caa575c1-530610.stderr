@@ -1,0 +1,4 @@
+pygmainloop.c: In function 'pyg_signal_watch_check':
+pygmainloop.c:162:9: warning: ignoring return value of 'read', declared with attribute warn_unused_result [-Wunused-result]
+         (void) read(poll_fd->fd, &dummy, 1);
+         ^

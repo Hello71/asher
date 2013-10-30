@@ -1,0 +1,3 @@
+/tmp/portage/dev-libs/gobject-introspection-1.34.2-r1/work/gobject-introspection-1.34.2/tmp-introspect2JM36v/GObject-2.0.c:614:3: warning: 'g_value_array_get_type' is deprecated (declared at /tmp/portage/dev-libs/gobject-introspection-1.34.2-r1/work/gobject-introspection-1.34.2/tmp-introspect2JM36v/GObject-2.0.c:603): Use 'g_array_get_type' instead [-Wdeprecated-declarations]
+   g_value_array_get_type,
+   ^

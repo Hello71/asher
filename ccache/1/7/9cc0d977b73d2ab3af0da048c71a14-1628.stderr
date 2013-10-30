@@ -1,0 +1,7 @@
+conftest.c: In function 'main':
+conftest.c:66:7: warning: 't' is used uninitialized in this function [-Wuninitialized]
+     *t++ = 0;
+       ^
+conftest.c:88:13: warning: 'cs[0]' is used uninitialized in this function [-Wuninitialized]
+   return !cs[0] && !zero.x;
+             ^

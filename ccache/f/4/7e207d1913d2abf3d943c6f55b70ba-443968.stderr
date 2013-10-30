@@ -1,0 +1,10 @@
+gsrvtarget.c: In function 'g_srv_target_get_type':
+gsrvtarget.c:68:127: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_BOXED_TYPE (GSrvTarget, g_srv_target,
+                                                                                                                               ^
+gsrvtarget.c:68:329: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_BOXED_TYPE (GSrvTarget, g_srv_target,
+                                                                                                                                                                                                                                                                                                                                         ^
+gsrvtarget.c:68:1108: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ G_DEFINE_BOXED_TYPE (GSrvTarget, g_srv_target,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^

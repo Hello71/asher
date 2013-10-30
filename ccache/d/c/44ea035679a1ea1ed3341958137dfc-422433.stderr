@@ -1,0 +1,74 @@
+gclosure.c: In function 'g_closure_new_simple':
+gclosure.c:208:288: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   SET (closure, ref_count, 1);
+                                                                                                                                                                                                                                                                                                ^
+gclosure.c:209:290: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   SET (closure, floating, TRUE);
+                                                                                                                                                                                                                                                                                                  ^
+gclosure.c: In function 'closure_invoke_notifiers':
+gclosure.c:244:300: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+    DEC_ASSIGN (closure, n_fnotifiers, &n);
+                                                                                                                                                                                                                                                                                                            ^
+gclosure.c:255:300: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+       SET (closure, in_inotify, TRUE);
+                                                                                                                                                                                                                                                                                                            ^
+gclosure.c:259:307: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+           DEC_ASSIGN (closure, n_inotifiers, &n);
+                                                                                                                                                                                                                                                                                                                   ^
+gclosure.c:268:297: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+       SET (closure, in_inotify, FALSE);
+                                                                                                                                                                                                                                                                                                         ^
+gclosure.c: In function 'g_closure_add_marshal_guards':
+gclosure.c:405:286: warning: typedef '_GStaticAssertCompileTimeAssertion_6' locally defined but not used [-Wunused-local-typedefs]
+   INC (closure, n_guards);
+                                                                                                                                                                                                                                                                                              ^
+gclosure.c: In function 'g_closure_add_finalize_notifier':
+gclosure.c:441:298: warning: typedef '_GStaticAssertCompileTimeAssertion_7' locally defined but not used [-Wunused-local-typedefs]
+   INC (closure, n_fnotifiers);
+                                                                                                                                                                                                                                                                                                          ^
+gclosure.c: In function 'g_closure_add_invalidate_notifier':
+gclosure.c:471:298: warning: typedef '_GStaticAssertCompileTimeAssertion_8' locally defined but not used [-Wunused-local-typedefs]
+   INC (closure, n_inotifiers);
+                                                                                                                                                                                                                                                                                                          ^
+gclosure.c: In function 'closure_try_remove_inotify':
+gclosure.c:485:297: warning: typedef '_GStaticAssertCompileTimeAssertion_9' locally defined but not used [-Wunused-local-typedefs]
+  DEC (closure, n_inotifiers);
+                                                                                                                                                                                                                                                                                                         ^
+gclosure.c: In function 'closure_try_remove_fnotify':
+gclosure.c:505:297: warning: typedef '_GStaticAssertCompileTimeAssertion_10' locally defined but not used [-Wunused-local-typedefs]
+  DEC (closure, n_fnotifiers);
+                                                                                                                                                                                                                                                                                                         ^
+gclosure.c: In function 'g_closure_ref':
+gclosure.c:535:302: warning: typedef '_GStaticAssertCompileTimeAssertion_11' locally defined but not used [-Wunused-local-typedefs]
+   INC_ASSIGN (closure, ref_count, &new_ref_count);
+                                                                                                                                                                                                                                                                                                              ^
+gclosure.c: In function 'g_closure_invalidate':
+gclosure.c:568:311: warning: typedef '_GStaticAssertCompileTimeAssertion_12' locally defined but not used [-Wunused-local-typedefs]
+       SWAP (closure, is_invalid, TRUE, &was_invalid);
+                                                                                                                                                                                                                                                                                                                       ^
+gclosure.c: In function 'g_closure_unref':
+gclosure.c:595:302: warning: typedef '_GStaticAssertCompileTimeAssertion_13' locally defined but not used [-Wunused-local-typedefs]
+   DEC_ASSIGN (closure, ref_count, &new_ref_count);
+                                                                                                                                                                                                                                                                                                              ^
+gclosure.c: In function 'g_closure_sink':
+gclosure.c:665:303: warning: typedef '_GStaticAssertCompileTimeAssertion_14' locally defined but not used [-Wunused-local-typedefs]
+       SWAP (closure, floating, FALSE, &was_floating);
+                                                                                                                                                                                                                                                                                                               ^
+gclosure.c: In function 'g_closure_invoke':
+gclosure.c:764:300: warning: typedef '_GStaticAssertCompileTimeAssertion_15' locally defined but not used [-Wunused-local-typedefs]
+       SET (closure, in_marshal, TRUE);
+                                                                                                                                                                                                                                                                                                            ^
+gclosure.c:784:304: warning: typedef '_GStaticAssertCompileTimeAssertion_16' locally defined but not used [-Wunused-local-typedefs]
+       SET (closure, in_marshal, in_marshal);
+                                                                                                                                                                                                                                                                                                                ^
+gclosure.c: In function '_g_closure_invoke_va':
+gclosure.c:827:300: warning: typedef '_GStaticAssertCompileTimeAssertion_17' locally defined but not used [-Wunused-local-typedefs]
+       SET (closure, in_marshal, TRUE);
+                                                                                                                                                                                                                                                                                                            ^
+gclosure.c:847:304: warning: typedef '_GStaticAssertCompileTimeAssertion_18' locally defined but not used [-Wunused-local-typedefs]
+       SET (closure, in_marshal, in_marshal);
+                                                                                                                                                                                                                                                                                                                ^
+gclosure.c: In function 'g_cclosure_new_swap':
+gclosure.c:949:311: warning: typedef '_GStaticAssertCompileTimeAssertion_19' locally defined but not used [-Wunused-local-typedefs]
+   SET (closure, derivative_flag, TRUE);
+                                                                                                                                                                                                                                                                                                                       ^

@@ -1,0 +1,10 @@
+gstrfuncs.c: In function 'get_C_locale':
+gstrfuncs.c:335:38: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&initialized))
+                                      ^
+gstrfuncs.c:335:210: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&initialized))
+                                                                                                                                                                                                                  ^
+gstrfuncs.c:338:38: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&initialized, TRUE);
+                                      ^

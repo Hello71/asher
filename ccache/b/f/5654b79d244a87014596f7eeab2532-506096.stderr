@@ -1,0 +1,8 @@
+gsignal.c: In function 'handler_ref':
+gsignal.c:589:34: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc ((int *)&handler->ref_count);
+                                  ^
+gsignal.c: In function 'handler_unref_R':
+gsignal.c:601:44: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   is_zero = g_atomic_int_dec_and_test ((int *)&handler->ref_count);
+                                            ^

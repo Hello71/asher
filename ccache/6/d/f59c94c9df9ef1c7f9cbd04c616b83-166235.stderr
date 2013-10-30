@@ -1,0 +1,18 @@
+gtimezone.c: In function 'g_time_zone_unref':
+gtimezone.c:154:46: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   ref_count = g_atomic_int_get (&tz->ref_count);
+                                              ^
+gtimezone.c:165:106: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+           if G_UNLIKELY (g_atomic_int_get (&tz->ref_count) != 1)
+                                                                                                          ^
+gtimezone.c:183:104: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+   else if G_UNLIKELY (!g_atomic_int_compare_and_exchange (&tz->ref_count,
+                                                                                                        ^
+gtimezone.c: In function 'g_time_zone_ref':
+gtimezone.c:204:34: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&tz->ref_count);
+                                  ^
+gtimezone.c: In function 'g_time_zone_new':
+gtimezone.c:457:34: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&tz->ref_count);
+                                  ^

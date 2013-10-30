@@ -1,0 +1,7 @@
+conftest.c: In function 'main':
+conftest.c:173:18: warning: unused variable 'writeMask' [-Wunused-variable]
+ fd_set readMask, writeMask;
+                  ^
+conftest.c:173:8: warning: unused variable 'readMask' [-Wunused-variable]
+ fd_set readMask, writeMask;
+        ^

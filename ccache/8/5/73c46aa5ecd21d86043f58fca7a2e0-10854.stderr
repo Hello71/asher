@@ -1,0 +1,4 @@
+conftest.c: In function 'main':
+conftest.c:174:7: warning: unused variable 'codeset' [-Wunused-variable]
+ char *codeset = nl_langinfo (CODESET);
+       ^

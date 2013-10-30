@@ -1,0 +1,700 @@
+gioenumtypes.c: In function 'g_app_info_create_flags_get_type':
+gioenumtypes.c:12:38: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:12:240: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                ^
+gioenumtypes.c:23:38: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_converter_flags_get_type':
+gioenumtypes.c:34:38: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:34:240: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                ^
+gioenumtypes.c:44:38: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_converter_result_get_type':
+gioenumtypes.c:55:38: warning: typedef '_GStaticAssertCompileTimeAssertion_6' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:55:240: warning: typedef '_GStaticAssertCompileTimeAssertion_7' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                ^
+gioenumtypes.c:66:38: warning: typedef '_GStaticAssertCompileTimeAssertion_8' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_data_stream_byte_order_get_type':
+gioenumtypes.c:77:38: warning: typedef '_GStaticAssertCompileTimeAssertion_9' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:77:240: warning: typedef '_GStaticAssertCompileTimeAssertion_10' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                ^
+gioenumtypes.c:87:38: warning: typedef '_GStaticAssertCompileTimeAssertion_11' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_data_stream_newline_type_get_type':
+gioenumtypes.c:98:38: warning: typedef '_GStaticAssertCompileTimeAssertion_12' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:98:241: warning: typedef '_GStaticAssertCompileTimeAssertion_13' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:109:38: warning: typedef '_GStaticAssertCompileTimeAssertion_14' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_file_attribute_type_get_type':
+gioenumtypes.c:120:38: warning: typedef '_GStaticAssertCompileTimeAssertion_15' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:120:241: warning: typedef '_GStaticAssertCompileTimeAssertion_16' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:137:38: warning: typedef '_GStaticAssertCompileTimeAssertion_17' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_file_attribute_info_flags_get_type':
+gioenumtypes.c:148:38: warning: typedef '_GStaticAssertCompileTimeAssertion_18' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:148:241: warning: typedef '_GStaticAssertCompileTimeAssertion_19' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:158:38: warning: typedef '_GStaticAssertCompileTimeAssertion_20' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_file_attribute_status_get_type':
+gioenumtypes.c:169:38: warning: typedef '_GStaticAssertCompileTimeAssertion_21' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:169:241: warning: typedef '_GStaticAssertCompileTimeAssertion_22' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:179:38: warning: typedef '_GStaticAssertCompileTimeAssertion_23' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_file_query_info_flags_get_type':
+gioenumtypes.c:190:38: warning: typedef '_GStaticAssertCompileTimeAssertion_24' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:190:241: warning: typedef '_GStaticAssertCompileTimeAssertion_25' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:199:38: warning: typedef '_GStaticAssertCompileTimeAssertion_26' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_file_create_flags_get_type':
+gioenumtypes.c:210:38: warning: typedef '_GStaticAssertCompileTimeAssertion_27' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:210:241: warning: typedef '_GStaticAssertCompileTimeAssertion_28' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:220:38: warning: typedef '_GStaticAssertCompileTimeAssertion_29' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_mount_mount_flags_get_type':
+gioenumtypes.c:231:38: warning: typedef '_GStaticAssertCompileTimeAssertion_30' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:231:241: warning: typedef '_GStaticAssertCompileTimeAssertion_31' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:239:38: warning: typedef '_GStaticAssertCompileTimeAssertion_32' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_mount_unmount_flags_get_type':
+gioenumtypes.c:250:38: warning: typedef '_GStaticAssertCompileTimeAssertion_33' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:250:241: warning: typedef '_GStaticAssertCompileTimeAssertion_34' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:259:38: warning: typedef '_GStaticAssertCompileTimeAssertion_35' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_drive_start_flags_get_type':
+gioenumtypes.c:270:38: warning: typedef '_GStaticAssertCompileTimeAssertion_36' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:270:241: warning: typedef '_GStaticAssertCompileTimeAssertion_37' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:278:38: warning: typedef '_GStaticAssertCompileTimeAssertion_38' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_drive_start_stop_type_get_type':
+gioenumtypes.c:289:38: warning: typedef '_GStaticAssertCompileTimeAssertion_39' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:289:241: warning: typedef '_GStaticAssertCompileTimeAssertion_40' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:301:38: warning: typedef '_GStaticAssertCompileTimeAssertion_41' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_file_copy_flags_get_type':
+gioenumtypes.c:312:38: warning: typedef '_GStaticAssertCompileTimeAssertion_42' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:312:241: warning: typedef '_GStaticAssertCompileTimeAssertion_43' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:326:38: warning: typedef '_GStaticAssertCompileTimeAssertion_44' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_file_monitor_flags_get_type':
+gioenumtypes.c:337:38: warning: typedef '_GStaticAssertCompileTimeAssertion_45' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:337:241: warning: typedef '_GStaticAssertCompileTimeAssertion_46' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:347:38: warning: typedef '_GStaticAssertCompileTimeAssertion_47' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_file_type_get_type':
+gioenumtypes.c:358:38: warning: typedef '_GStaticAssertCompileTimeAssertion_48' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:358:241: warning: typedef '_GStaticAssertCompileTimeAssertion_49' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:372:38: warning: typedef '_GStaticAssertCompileTimeAssertion_50' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_filesystem_preview_type_get_type':
+gioenumtypes.c:383:38: warning: typedef '_GStaticAssertCompileTimeAssertion_51' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:383:241: warning: typedef '_GStaticAssertCompileTimeAssertion_52' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:393:38: warning: typedef '_GStaticAssertCompileTimeAssertion_53' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_file_monitor_event_get_type':
+gioenumtypes.c:404:38: warning: typedef '_GStaticAssertCompileTimeAssertion_54' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:404:241: warning: typedef '_GStaticAssertCompileTimeAssertion_55' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:419:38: warning: typedef '_GStaticAssertCompileTimeAssertion_56' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_io_error_enum_get_type':
+gioenumtypes.c:430:38: warning: typedef '_GStaticAssertCompileTimeAssertion_57' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:430:241: warning: typedef '_GStaticAssertCompileTimeAssertion_58' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:481:38: warning: typedef '_GStaticAssertCompileTimeAssertion_59' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_ask_password_flags_get_type':
+gioenumtypes.c:492:38: warning: typedef '_GStaticAssertCompileTimeAssertion_60' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:492:241: warning: typedef '_GStaticAssertCompileTimeAssertion_61' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:504:38: warning: typedef '_GStaticAssertCompileTimeAssertion_62' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_password_save_get_type':
+gioenumtypes.c:515:38: warning: typedef '_GStaticAssertCompileTimeAssertion_63' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:515:241: warning: typedef '_GStaticAssertCompileTimeAssertion_64' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:525:38: warning: typedef '_GStaticAssertCompileTimeAssertion_65' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_mount_operation_result_get_type':
+gioenumtypes.c:536:38: warning: typedef '_GStaticAssertCompileTimeAssertion_66' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:536:241: warning: typedef '_GStaticAssertCompileTimeAssertion_67' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:546:38: warning: typedef '_GStaticAssertCompileTimeAssertion_68' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_output_stream_splice_flags_get_type':
+gioenumtypes.c:557:38: warning: typedef '_GStaticAssertCompileTimeAssertion_69' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:557:241: warning: typedef '_GStaticAssertCompileTimeAssertion_70' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:567:38: warning: typedef '_GStaticAssertCompileTimeAssertion_71' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_io_stream_splice_flags_get_type':
+gioenumtypes.c:578:38: warning: typedef '_GStaticAssertCompileTimeAssertion_72' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:578:241: warning: typedef '_GStaticAssertCompileTimeAssertion_73' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:589:38: warning: typedef '_GStaticAssertCompileTimeAssertion_74' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_emblem_origin_get_type':
+gioenumtypes.c:600:38: warning: typedef '_GStaticAssertCompileTimeAssertion_75' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:600:241: warning: typedef '_GStaticAssertCompileTimeAssertion_76' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:611:38: warning: typedef '_GStaticAssertCompileTimeAssertion_77' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_resolver_error_get_type':
+gioenumtypes.c:622:38: warning: typedef '_GStaticAssertCompileTimeAssertion_78' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:622:241: warning: typedef '_GStaticAssertCompileTimeAssertion_79' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:632:38: warning: typedef '_GStaticAssertCompileTimeAssertion_80' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_resolver_record_type_get_type':
+gioenumtypes.c:643:38: warning: typedef '_GStaticAssertCompileTimeAssertion_81' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:643:241: warning: typedef '_GStaticAssertCompileTimeAssertion_82' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:655:38: warning: typedef '_GStaticAssertCompileTimeAssertion_83' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_resource_error_get_type':
+gioenumtypes.c:666:38: warning: typedef '_GStaticAssertCompileTimeAssertion_84' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:666:241: warning: typedef '_GStaticAssertCompileTimeAssertion_85' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:675:38: warning: typedef '_GStaticAssertCompileTimeAssertion_86' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_resource_flags_get_type':
+gioenumtypes.c:686:38: warning: typedef '_GStaticAssertCompileTimeAssertion_87' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:686:241: warning: typedef '_GStaticAssertCompileTimeAssertion_88' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:695:38: warning: typedef '_GStaticAssertCompileTimeAssertion_89' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_resource_lookup_flags_get_type':
+gioenumtypes.c:706:38: warning: typedef '_GStaticAssertCompileTimeAssertion_90' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:706:241: warning: typedef '_GStaticAssertCompileTimeAssertion_91' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:714:38: warning: typedef '_GStaticAssertCompileTimeAssertion_92' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_socket_family_get_type':
+gioenumtypes.c:725:38: warning: typedef '_GStaticAssertCompileTimeAssertion_93' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:725:241: warning: typedef '_GStaticAssertCompileTimeAssertion_94' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:736:38: warning: typedef '_GStaticAssertCompileTimeAssertion_95' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_socket_type_get_type':
+gioenumtypes.c:747:38: warning: typedef '_GStaticAssertCompileTimeAssertion_96' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:747:241: warning: typedef '_GStaticAssertCompileTimeAssertion_97' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:758:38: warning: typedef '_GStaticAssertCompileTimeAssertion_98' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_socket_msg_flags_get_type':
+gioenumtypes.c:769:38: warning: typedef '_GStaticAssertCompileTimeAssertion_99' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:769:241: warning: typedef '_GStaticAssertCompileTimeAssertion_100' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                 ^
+gioenumtypes.c:780:38: warning: typedef '_GStaticAssertCompileTimeAssertion_101' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_socket_protocol_get_type':
+gioenumtypes.c:791:38: warning: typedef '_GStaticAssertCompileTimeAssertion_102' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:791:242: warning: typedef '_GStaticAssertCompileTimeAssertion_103' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:803:38: warning: typedef '_GStaticAssertCompileTimeAssertion_104' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_zlib_compressor_format_get_type':
+gioenumtypes.c:814:38: warning: typedef '_GStaticAssertCompileTimeAssertion_105' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:814:242: warning: typedef '_GStaticAssertCompileTimeAssertion_106' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:824:38: warning: typedef '_GStaticAssertCompileTimeAssertion_107' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_unix_socket_address_type_get_type':
+gioenumtypes.c:835:38: warning: typedef '_GStaticAssertCompileTimeAssertion_108' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:835:242: warning: typedef '_GStaticAssertCompileTimeAssertion_109' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:847:38: warning: typedef '_GStaticAssertCompileTimeAssertion_110' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_bus_type_get_type':
+gioenumtypes.c:858:38: warning: typedef '_GStaticAssertCompileTimeAssertion_111' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:858:242: warning: typedef '_GStaticAssertCompileTimeAssertion_112' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:869:38: warning: typedef '_GStaticAssertCompileTimeAssertion_113' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_bus_name_owner_flags_get_type':
+gioenumtypes.c:880:38: warning: typedef '_GStaticAssertCompileTimeAssertion_114' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:880:242: warning: typedef '_GStaticAssertCompileTimeAssertion_115' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:890:38: warning: typedef '_GStaticAssertCompileTimeAssertion_116' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_bus_name_watcher_flags_get_type':
+gioenumtypes.c:901:38: warning: typedef '_GStaticAssertCompileTimeAssertion_117' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:901:242: warning: typedef '_GStaticAssertCompileTimeAssertion_118' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:910:38: warning: typedef '_GStaticAssertCompileTimeAssertion_119' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_dbus_proxy_flags_get_type':
+gioenumtypes.c:921:38: warning: typedef '_GStaticAssertCompileTimeAssertion_120' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:921:242: warning: typedef '_GStaticAssertCompileTimeAssertion_121' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:933:38: warning: typedef '_GStaticAssertCompileTimeAssertion_122' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_dbus_error_get_type':
+gioenumtypes.c:944:38: warning: typedef '_GStaticAssertCompileTimeAssertion_123' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:944:242: warning: typedef '_GStaticAssertCompileTimeAssertion_124' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:992:38: warning: typedef '_GStaticAssertCompileTimeAssertion_125' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_dbus_connection_flags_get_type':
+gioenumtypes.c:1003:38: warning: typedef '_GStaticAssertCompileTimeAssertion_126' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1003:242: warning: typedef '_GStaticAssertCompileTimeAssertion_127' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1016:38: warning: typedef '_GStaticAssertCompileTimeAssertion_128' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_dbus_capability_flags_get_type':
+gioenumtypes.c:1027:38: warning: typedef '_GStaticAssertCompileTimeAssertion_129' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1027:242: warning: typedef '_GStaticAssertCompileTimeAssertion_130' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1036:38: warning: typedef '_GStaticAssertCompileTimeAssertion_131' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_dbus_call_flags_get_type':
+gioenumtypes.c:1047:38: warning: typedef '_GStaticAssertCompileTimeAssertion_132' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1047:242: warning: typedef '_GStaticAssertCompileTimeAssertion_133' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1056:38: warning: typedef '_GStaticAssertCompileTimeAssertion_134' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_dbus_message_type_get_type':
+gioenumtypes.c:1067:38: warning: typedef '_GStaticAssertCompileTimeAssertion_135' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1067:242: warning: typedef '_GStaticAssertCompileTimeAssertion_136' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1079:38: warning: typedef '_GStaticAssertCompileTimeAssertion_137' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_dbus_message_flags_get_type':
+gioenumtypes.c:1090:38: warning: typedef '_GStaticAssertCompileTimeAssertion_138' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1090:242: warning: typedef '_GStaticAssertCompileTimeAssertion_139' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1100:38: warning: typedef '_GStaticAssertCompileTimeAssertion_140' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_dbus_message_header_field_get_type':
+gioenumtypes.c:1111:38: warning: typedef '_GStaticAssertCompileTimeAssertion_141' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1111:242: warning: typedef '_GStaticAssertCompileTimeAssertion_142' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1128:38: warning: typedef '_GStaticAssertCompileTimeAssertion_143' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_dbus_property_info_flags_get_type':
+gioenumtypes.c:1139:38: warning: typedef '_GStaticAssertCompileTimeAssertion_144' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1139:242: warning: typedef '_GStaticAssertCompileTimeAssertion_145' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1149:38: warning: typedef '_GStaticAssertCompileTimeAssertion_146' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_dbus_subtree_flags_get_type':
+gioenumtypes.c:1160:38: warning: typedef '_GStaticAssertCompileTimeAssertion_147' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1160:242: warning: typedef '_GStaticAssertCompileTimeAssertion_148' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1169:38: warning: typedef '_GStaticAssertCompileTimeAssertion_149' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_dbus_server_flags_get_type':
+gioenumtypes.c:1180:38: warning: typedef '_GStaticAssertCompileTimeAssertion_150' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1180:242: warning: typedef '_GStaticAssertCompileTimeAssertion_151' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1190:38: warning: typedef '_GStaticAssertCompileTimeAssertion_152' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_dbus_signal_flags_get_type':
+gioenumtypes.c:1201:38: warning: typedef '_GStaticAssertCompileTimeAssertion_153' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1201:242: warning: typedef '_GStaticAssertCompileTimeAssertion_154' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1210:38: warning: typedef '_GStaticAssertCompileTimeAssertion_155' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_dbus_send_message_flags_get_type':
+gioenumtypes.c:1221:38: warning: typedef '_GStaticAssertCompileTimeAssertion_156' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1221:242: warning: typedef '_GStaticAssertCompileTimeAssertion_157' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1230:38: warning: typedef '_GStaticAssertCompileTimeAssertion_158' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_credentials_type_get_type':
+gioenumtypes.c:1241:38: warning: typedef '_GStaticAssertCompileTimeAssertion_159' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1241:242: warning: typedef '_GStaticAssertCompileTimeAssertion_160' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1252:38: warning: typedef '_GStaticAssertCompileTimeAssertion_161' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_dbus_message_byte_order_get_type':
+gioenumtypes.c:1263:38: warning: typedef '_GStaticAssertCompileTimeAssertion_162' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1263:242: warning: typedef '_GStaticAssertCompileTimeAssertion_163' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1272:38: warning: typedef '_GStaticAssertCompileTimeAssertion_164' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_application_flags_get_type':
+gioenumtypes.c:1283:38: warning: typedef '_GStaticAssertCompileTimeAssertion_165' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1283:242: warning: typedef '_GStaticAssertCompileTimeAssertion_166' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1297:38: warning: typedef '_GStaticAssertCompileTimeAssertion_167' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_tls_error_get_type':
+gioenumtypes.c:1308:38: warning: typedef '_GStaticAssertCompileTimeAssertion_168' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1308:242: warning: typedef '_GStaticAssertCompileTimeAssertion_169' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1322:38: warning: typedef '_GStaticAssertCompileTimeAssertion_170' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_tls_certificate_flags_get_type':
+gioenumtypes.c:1333:38: warning: typedef '_GStaticAssertCompileTimeAssertion_171' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1333:242: warning: typedef '_GStaticAssertCompileTimeAssertion_172' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1348:38: warning: typedef '_GStaticAssertCompileTimeAssertion_173' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_tls_authentication_mode_get_type':
+gioenumtypes.c:1359:38: warning: typedef '_GStaticAssertCompileTimeAssertion_174' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1359:242: warning: typedef '_GStaticAssertCompileTimeAssertion_175' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1369:38: warning: typedef '_GStaticAssertCompileTimeAssertion_176' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_tls_rehandshake_mode_get_type':
+gioenumtypes.c:1380:38: warning: typedef '_GStaticAssertCompileTimeAssertion_177' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1380:242: warning: typedef '_GStaticAssertCompileTimeAssertion_178' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1390:38: warning: typedef '_GStaticAssertCompileTimeAssertion_179' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_tls_password_flags_get_type':
+gioenumtypes.c:1401:38: warning: typedef '_GStaticAssertCompileTimeAssertion_180' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1401:242: warning: typedef '_GStaticAssertCompileTimeAssertion_181' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1412:38: warning: typedef '_GStaticAssertCompileTimeAssertion_182' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_tls_interaction_result_get_type':
+gioenumtypes.c:1423:38: warning: typedef '_GStaticAssertCompileTimeAssertion_183' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1423:242: warning: typedef '_GStaticAssertCompileTimeAssertion_184' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1433:38: warning: typedef '_GStaticAssertCompileTimeAssertion_185' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_dbus_interface_skeleton_flags_get_type':
+gioenumtypes.c:1444:38: warning: typedef '_GStaticAssertCompileTimeAssertion_186' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1444:242: warning: typedef '_GStaticAssertCompileTimeAssertion_187' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1453:38: warning: typedef '_GStaticAssertCompileTimeAssertion_188' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_dbus_object_manager_client_flags_get_type':
+gioenumtypes.c:1464:38: warning: typedef '_GStaticAssertCompileTimeAssertion_189' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1464:242: warning: typedef '_GStaticAssertCompileTimeAssertion_190' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1473:38: warning: typedef '_GStaticAssertCompileTimeAssertion_191' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_tls_database_verify_flags_get_type':
+gioenumtypes.c:1484:38: warning: typedef '_GStaticAssertCompileTimeAssertion_192' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1484:242: warning: typedef '_GStaticAssertCompileTimeAssertion_193' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1492:38: warning: typedef '_GStaticAssertCompileTimeAssertion_194' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_tls_database_lookup_flags_get_type':
+gioenumtypes.c:1503:38: warning: typedef '_GStaticAssertCompileTimeAssertion_195' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1503:242: warning: typedef '_GStaticAssertCompileTimeAssertion_196' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1512:38: warning: typedef '_GStaticAssertCompileTimeAssertion_197' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_io_module_scope_flags_get_type':
+gioenumtypes.c:1523:38: warning: typedef '_GStaticAssertCompileTimeAssertion_198' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1523:242: warning: typedef '_GStaticAssertCompileTimeAssertion_199' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1532:38: warning: typedef '_GStaticAssertCompileTimeAssertion_200' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_socket_client_event_get_type':
+gioenumtypes.c:1543:38: warning: typedef '_GStaticAssertCompileTimeAssertion_201' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1543:242: warning: typedef '_GStaticAssertCompileTimeAssertion_202' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1559:38: warning: typedef '_GStaticAssertCompileTimeAssertion_203' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_test_dbus_flags_get_type':
+gioenumtypes.c:1570:38: warning: typedef '_GStaticAssertCompileTimeAssertion_204' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1570:242: warning: typedef '_GStaticAssertCompileTimeAssertion_205' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1578:38: warning: typedef '_GStaticAssertCompileTimeAssertion_206' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^
+gioenumtypes.c: In function 'g_settings_bind_flags_get_type':
+gioenumtypes.c:1590:38: warning: typedef '_GStaticAssertCompileTimeAssertion_207' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                      ^
+gioenumtypes.c:1590:242: warning: typedef '_GStaticAssertCompileTimeAssertion_208' locally defined but not used [-Wunused-local-typedefs]
+   if (g_once_init_enter (&g_define_type_id__volatile))
+                                                                                                                                                                                                                                                  ^
+gioenumtypes.c:1603:38: warning: typedef '_GStaticAssertCompileTimeAssertion_209' locally defined but not used [-Wunused-local-typedefs]
+       g_once_init_leave (&g_define_type_id__volatile, g_define_type_id);
+                                      ^

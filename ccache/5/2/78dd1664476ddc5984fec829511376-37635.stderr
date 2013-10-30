@@ -1,0 +1,4 @@
+conftest.c: In function 'main':
+conftest.c:183:17: warning: unused variable 'm' [-Wunused-variable]
+ pthread_mutex_t m = PTHREAD_MUTEX_INITIALIZER;
+                 ^

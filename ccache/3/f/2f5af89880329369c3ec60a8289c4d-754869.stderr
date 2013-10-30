@@ -1,0 +1,8 @@
+testhelpermodule.c: In function '_wrap_test_value_array':
+testhelpermodule.c:506:3: warning: 'g_value_array_get_type' is deprecated (declared at /usr/include/glib-2.0/gobject/gvaluearray.h:62): Use 'g_array_get_type' instead [-Wdeprecated-declarations]
+   g_value_init(value, G_TYPE_VALUE_ARRAY);
+   ^
+testhelpermodule.c: In function 'inittesthelper':
+testhelpermodule.c:605:3: warning: 'g_thread_init' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:259) [-Wdeprecated-declarations]
+   g_thread_init(NULL);
+   ^

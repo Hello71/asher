@@ -1,0 +1,24 @@
+garray.c: In function 'g_array_ref':
+garray.c:260:34: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&rarray->ref_count);
+                                  ^
+garray.c: In function 'g_array_unref':
+garray.c:290:38: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_dec_and_test (&rarray->ref_count))
+                                      ^
+garray.c: In function 'g_array_free':
+garray.c:344:39: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+   if (!g_atomic_int_dec_and_test (&array->ref_count))
+                                       ^
+garray.c: In function 'g_ptr_array_ref':
+garray.c:989:34: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&rarray->ref_count);
+                                  ^
+garray.c: In function 'g_ptr_array_unref':
+garray.c:1013:38: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+   if (g_atomic_int_dec_and_test (&rarray->ref_count))
+                                      ^
+garray.c: In function 'g_ptr_array_free':
+garray.c:1047:39: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+   if (!g_atomic_int_dec_and_test (&array->ref_count))
+                                       ^

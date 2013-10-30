@@ -1,0 +1,20 @@
+gquark.c: In function 'g_quark_to_string':
+gquark.c:260:43: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+   seq_id = g_atomic_int_get (&quark_seq_id);
+                                           ^
+gquark.c:261:44: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+   strings = g_atomic_pointer_get (&quarks);
+                                            ^
+gquark.c: In function 'quark_new':
+gquark.c:286:38: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+       g_atomic_pointer_set (&quarks, quarks_new);
+                                      ^
+gquark.c:293:38: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+       g_atomic_int_inc (&quark_seq_id);
+                                      ^
+gquark.c:297:34: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_pointer_set (&quarks[quark], string);
+                                  ^
+gquark.c:299:34: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+   g_atomic_int_inc (&quark_seq_id);
+                                  ^
